@@ -1,7 +1,23 @@
 aid: 2duche
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/2duche.png
 name: 2duche
-description: 2duche is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 2Duche was a Chinese used-car marketing and trading service platform, backed by
+  Qiming Venture Partners and recognized on the Red Herring Asia 100 in 2009. It was surfaced as a
+  portfolio company of Qiming and added to the API Evangelist network as an enrichment lead. As of
+  the July 2026 enrichment pass the company appears defunct — the apex domain 2duche.com does not
+  resolve and www.2duche.com is unreachable, with no discoverable developer portal, API, documentation,
+  SDKs, or public code repositories. No API artifacts could be produced without fabrication.
 url: https://raw.githubusercontent.com/api-evangelist/2duche/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +27,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-17T18:00:00Z'
 tags:
 - Company
+- Used Cars
+- Automotive
+- Marketplace
+- China
+- Defunct
 apis: []
+x-status: defunct
+x-enrichment-note: 'Domain unreachable (2duche.com NXDOMAIN at apex, www times out) on 2026-07-17;
+  no developer/API surface found. Company was a used-car marketing platform, Qiming portfolio, Red Herring Asia 100 2009.'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +47,8 @@ maintainers:
 common:
 - type: Website
   url: https://2duche.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
